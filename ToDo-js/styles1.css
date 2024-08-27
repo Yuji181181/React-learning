@@ -50,6 +50,7 @@ button:hover{
     align-items:center;
 }
 
-.todo{
+.todo-item{
+    margin:6px;
     
 }
