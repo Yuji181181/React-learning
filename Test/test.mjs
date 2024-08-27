@@ -69,9 +69,6 @@ const G = {
 const arr1 = [1,2];
 console.log(arr1);     //[1,2]
 console.log(...arr1);  //1,2
-
-
-
 //まとめる
 const arr2 = [1,2,3,4,5];
 const [num1,num2, ...arr3] = arr2;
