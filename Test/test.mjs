@@ -1,12 +1,12 @@
 /**
  * テンプレート文字列
  */
-const name = "ゆうじ";
-const age = "23";
+const name1 = "ゆうじ";
+const age1 = "21";
 //従来
-const X = "名前は"+ name + "です。年は"+ age + "です";
+const A = "名前は"+ name1 + "です。年は"+ age1+ "です";
 //テンプレート文字列を用いる
-const Y = `名前は${name}です。年は${age}です`;
+const B = `名前は${name1}です。年は${age1}です`;
 
 
 /**
@@ -22,3 +22,22 @@ const 関数名 = (引数) => {
 };
 //引数が１つなら()省略可
 //処理の行が1行なら{}省略可
+
+
+/**
+ * 分割代入
+ */
+const profile = {   //オブジェクト
+    name2:"ゆうじ",
+    age2:21
+};
+//ダルい方法
+const C = `名前は${profile.name2}です。年は${profile.age2}です`;
+//分割代入を使う方法
+const{name2,age2} = profile;
+const D = `名前は${name2}です。年は${age2}です`;
+
+
+/**
+ * 
+ */
