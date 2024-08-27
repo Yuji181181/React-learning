@@ -39,5 +39,9 @@ const D = `名前は${name2}です。年は${age2}です`;
 
 
 /**
- * 
+ * デフォルト値
  */
+const E = (name3 = "ゲスト") => console.log();
+E();
+
+
