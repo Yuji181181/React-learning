@@ -45,3 +45,18 @@ const E = (name3 = "ゲスト") => console.log();
 E();
 
 
+/**
+ * オブジェクトの省略
+ */
+const name4 = "ゆうじ"
+const age4 = "21"
+//省略前
+const F = {
+    name4:name4,
+    age4:age4
+};
+//省略後
+const G = {
+    name4,   ///宣言済みの変数と名前が同じ場合省略可能
+    age4
+}
