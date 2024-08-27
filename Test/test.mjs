@@ -85,3 +85,17 @@ const H = ["田中","山田","太郎"];
 for (let x=0; x < H.length; x++){
     console.log(H[x])
 };
+//map      /// H.map(関数);
+H.map((name5) => {
+    return name5   //{}省略可能で１行にできる
+});
+console.log(H);
+//filter   /// H.filter(関数)
+H.filter((num) => {
+    return num * 2 === 1;
+});
+console.log(H)
+
+
+
+
