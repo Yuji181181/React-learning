@@ -60,3 +60,23 @@ const G = {
     name4,   ///宣言済みの変数と名前が同じ場合省略可能
     age4
 }
+
+
+/**
+ * スプレット構文
+ */
+//配列の展開
+const arr1 = [1,2];
+console.log(arr1);     //[1,2]
+console.log(...arr1);  //1,2
+
+
+
+//まとめる
+const arr2 = [1,2,3,4,5];
+const [num1,num2, ...arr3] = arr2;
+console.log(num1);  //1
+console.log(num2);  //2
+console.log(arr3);  //[3,4,5]
+
+
