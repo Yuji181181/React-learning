@@ -59,7 +59,7 @@ const F = {
 const G = {
     name4,   ///宣言済みの変数と名前が同じ場合省略可能
     age4
-}
+};
 
 
 /**
@@ -77,3 +77,11 @@ console.log(num2);  //2
 console.log(arr3);  //[3,4,5]
 
 
+/**
+ * map,filterで配列の処理
+ */
+const H = ["田中","山田","太郎"];
+//for文
+for (let x=0; x < H.length; x++){
+    console.log(H[x])
+};
