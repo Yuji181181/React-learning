@@ -29,3 +29,12 @@ button:hover{
     margin:8px;
     border-radius:8px;
 }
+
+.incomplete{
+    border:2px solid #aacfd0;
+    width:400px;
+    min-height:200px;
+    padding:8px;
+    margin:8px;
+    border-radius: 8px;
+}
