@@ -16,7 +16,8 @@ const onClickAdd = () => {
     div.appendChild(p);
     li.appendChild(div);
 
-
+    document,getElementById("incomplete-list").appendChild(li);
+}
 
 
 
