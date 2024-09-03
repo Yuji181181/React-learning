@@ -25,7 +25,10 @@ const createIncompleteTodo = (todo) => {
         const backButton = document.createElement("button");
         backButton.innerText = "戻す";
         backButton.addEventListener("click",() => {
+            const todoText = backButton.previousElementSibling.innerText;
+            createIncompleteTodo(todoText);
 
+            backButton.closest("li").remove();
         });
         moveTarget.firstElementChild.appendChild(backButton);
 
