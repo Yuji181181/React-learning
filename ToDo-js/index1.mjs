@@ -13,7 +13,8 @@ const onClickAdd = () => {
     p.className ="todo-item";
     p.innerText = inputText;
 
-    
+    div.appendChild(p);
+    li.appendChild(div);
 
 
 
