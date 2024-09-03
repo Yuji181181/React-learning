@@ -3,7 +3,7 @@ const onClickAdd = () => {
     document.getElementById("add-text").value = "";
 
     createIncompleteTodo(inputText);
-}
+};
 
 const createIncompleteTodo = (todo) => {
     const li = document.createElement("li");
@@ -49,8 +49,6 @@ const createIncompleteTodo = (todo) => {
 
     document.getElementById("incomplete-list").appendChild(li);
 };
-
-
 
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("add-button").addEventListener("click", onClickAdd);
