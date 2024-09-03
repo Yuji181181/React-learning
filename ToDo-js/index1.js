@@ -21,7 +21,7 @@ const onClickAdd = () => {
     deleteButton.innerText ="消去";
     deleteButton.addEventListener("click",() => {
         const deleteTarget = deleteButton.closest("li");
-        document.getElementById("incomplete-list").removeChild();
+        document.getElementById("incomplete-list").removeChild(deleteTarget);
     });
 
 
