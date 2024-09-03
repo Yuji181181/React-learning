@@ -6,6 +6,9 @@ const onClickAdd = () => {
 
     const li = document.createElement("li");
 
+    const div = document.createElement("div");
+    div.className ="list-row"
+
     
 
 
