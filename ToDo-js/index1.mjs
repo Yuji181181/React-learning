@@ -14,6 +14,8 @@ const onClickAdd = () => {
     p.innerText = inputText;
 
     div.appendChild(p);
+    div.appendChild(completeButton);
+    div.appendChild(deleteButton);
     li.appendChild(div);
 
     document,getElementById("incomplete-list").appendChild(li);
