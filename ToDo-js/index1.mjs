@@ -29,16 +29,3 @@ const onClickAdd = () => {
     document,getElementById("incomplete-list").appendChild(li);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-}
