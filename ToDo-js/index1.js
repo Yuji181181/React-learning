@@ -1,6 +1,8 @@
 const onClickAdd = () => {
     const inputText = document.getElementById("add-text").value;
     document.getElementById("add-text").value = "";
+
+    createIncompleteTodo(inputText);
 }
 
 const createIncompleteTodo = (todo) => {
