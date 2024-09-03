@@ -1,5 +1,3 @@
-import "./styles1.css";
-
 const onClickAdd = () => {
     const inputText = document.getElementById("add-text").value;
     document.getElementById("add-text").value = "";
@@ -29,3 +27,6 @@ const onClickAdd = () => {
     document,getElementById("incomplete-list").appendChild(li);
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("add-button").addEventListener("click", onClickAdd);
+});
