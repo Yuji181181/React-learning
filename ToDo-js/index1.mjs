@@ -9,6 +9,10 @@ const onClickAdd = () => {
     const div = document.createElement("div");
     div.className ="list-row"
 
+    const p =document.createElement("p");
+    p.className ="todo-item";
+    p.innerText = inputText;
+
     
 
 
