@@ -13,6 +13,15 @@ const onClickAdd = () => {
     p.className ="todo-item";
     p.innerText = inputText;
 
+    const completeButton = document.createElement("button");
+    completeButton.innerHTML = "完了"
+    completeButton.addEventListener("click");
+
+
+
+
+
+
     div.appendChild(p);
     div.appendChild(completeButton);
     div.appendChild(deleteButton);
