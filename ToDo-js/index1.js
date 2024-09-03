@@ -20,8 +20,12 @@ const onClickAdd = () => {
     const deleteButton = document.createElement("button");
     deleteButton.innerText ="消去";
     deleteButton.addEventListener("click",() => {
-        alert("消去");
+        const deleteTarget = deleteButton.closest("li");
+        document.getElementById("incomplete-list").removeChild();
     });
+
+
+
 
     div.appendChild(p);
     div.appendChild(completeButton);
