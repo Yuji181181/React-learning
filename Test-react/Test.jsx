@@ -39,3 +39,13 @@ export const Student = ({name,age,gender}) => { // → アロー関数
     );
 };
 
+//App.jsx
+export const App2 =() => {
+    return(
+        <>
+            <Student name = "田中" age = "21" gender = "男"></Student>
+            <Student name = "鈴木" age = "21" gender = "男"></Student>
+            <Student name = "山田" age = "21" gender = "女"></Student>
+        </>
+    );
+};
