@@ -1,5 +1,5 @@
 /**
- * テンプレート
+ * テンプレート(main.jsx)
  */
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
 
 
 /**
- * コンポーネントの作り方
+ * コンポーネントの作り方(App.jsx)
  */
 const App =() => {
     return(
@@ -22,3 +22,5 @@ const App =() => {
         </>                    //divタグと選択
     )
 }
+
+
