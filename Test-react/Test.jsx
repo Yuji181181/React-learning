@@ -56,8 +56,10 @@ export const App2 =() => {
  */
 
 //変数の宣言(初期値は0)  
-let count = 0;  //js
-const [count2,setCount2] = useState(0);  //React  // ← ここで自動でimportが発動
+const [count, setCount] = useState(0); // ← ここで自動でimportが発動
+// jsだと let count = 0;
 
 //中身を変えるプログラム
-
+const handleClick = () => {
+    setCount(count + 1);
+}
