@@ -17,7 +17,7 @@ createRoot(document.getElementById('root')).render(
 export const App =() => {  
     return(
         <>                     //divタグと選択
-            <h1>こんいちは</h1>
+            <h1>こんいちは</h1>    //この中にjsを使うときは{}で書く
             <p>元気？</p>
         </>                    //divタグと選択
     );
