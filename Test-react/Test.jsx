@@ -11,3 +11,14 @@ createRoot(document.getElementById('root')).render(
 )
 
 
+/**
+ * コンポーネントの作り方
+ */
+const App =() => {
+    return(
+        <>                     //divタグと選択
+            <h1>こんいちは</h1>
+            <p>元気？</p>
+        </>                    //divタグと選択
+    )
+}
